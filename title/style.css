@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    background-color: #222226;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    transition: 4s ease-in;
+    text-shadow: 0 0 10px rgba(255, 2, 2, 0.5),
+                0 0 20px rgba(246, 0, 0, 0.5),
+                0 0 30px rgba(246, 0, 0, 0.5),
+                0 0 40px rgba(246, 0, 0, 0.5),
+                0 0 50px rgba(246, 0, 0, 0.5),
+                0 0 60px rgba(246, 0, 0, 0.5),
+                0 0 70px rgba(246, 0, 0, 0.5);
+}
+
+p{
+    font-family: 'Bebas Neue', sans-serif;
+    transition: 10s ease-out;
+}
+
+.prime{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
